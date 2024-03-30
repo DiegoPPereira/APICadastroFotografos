@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroFotografo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f49604121fae9c033a646c4fe11aab35cba44bc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroFotografo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroFotografo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,5 +19,6 @@ namespace CadastroFotografo.Model
 
         [ForeignKey("FotografoId")]
         public Fotografo? Fotografos { get; set; } // Propriedade de navegação para Fotografo
+        public int Id { get; internal set; }
     }
 }

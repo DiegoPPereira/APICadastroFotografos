@@ -46,6 +46,7 @@ namespace CadastroFotografo.Model
         public DateTime? DataUltimaVisita { get; set; }
 
         public ICollection<Visita> Visitas { get; set; }
+        public int Id { get; internal set; }
 
         public Fotografo() => Visitas = new Collection<Visita>();
     }

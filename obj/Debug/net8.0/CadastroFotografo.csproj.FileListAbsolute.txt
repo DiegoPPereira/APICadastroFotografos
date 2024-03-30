@@ -239,3 +239,6 @@ C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\obj\Debug\net8.0
 C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\obj\Debug\net8.0\CadastroFotografo.pdb
 C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\obj\Debug\net8.0\CadastroFotografo.genruntimeconfig.cache
 C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\obj\Debug\net8.0\ref\CadastroFotografo.dll
+C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\diego\source\repos\CadastroFotografo\CadastroFotografo\obj\Debug\net8.0\CadastroFotografo.sourcelink.json
