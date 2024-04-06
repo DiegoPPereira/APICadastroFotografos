@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace CadastroFotografo.Model
 {
@@ -26,7 +27,6 @@ namespace CadastroFotografo.Model
         [DataType(DataType.Date)]
         public DateTime DataNascimento { get; set; }
 
-
         [Required]
         [EmailAddress]
         public string Email { get; set; }
@@ -45,8 +45,8 @@ namespace CadastroFotografo.Model
 
         public DateTime? DataUltimaVisita { get; set; }
 
+        [JsonIgnore]
         public ICollection<Visita> Visitas { get; set; }
-        public int Id { get; internal set; }
 
         public Fotografo() => Visitas = new Collection<Visita>();
     }

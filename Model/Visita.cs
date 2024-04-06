@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace CadastroFotografo.Model
 {
@@ -11,14 +12,13 @@ namespace CadastroFotografo.Model
         public int VisitaId { get; set; }
 
         [Required]
-        [StringLength(50)] // Define o tamanho máximo da string para 50 caracteres
-        public string? DataHora { get; set; }
+        public DateTime DataHora { get; set; }
 
         [Required]
-        public int FotografoId { get; set; } // Referência ao Fotografo que realizou a visita
+        public int FotografoId { get; set; }
 
+        [JsonIgnore]
         [ForeignKey("FotografoId")]
-        public Fotografo? Fotografos { get; set; } // Propriedade de navegação para Fotografo
-        public int Id { get; internal set; }
+        public Fotografo? Fotografo { get; set; }
     }
 }

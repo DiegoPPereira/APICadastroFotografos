@@ -1,15 +1,16 @@
 ﻿using CadastroFotografo.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace CadastroFotografo.Context;
-
-public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
+namespace CadastroFotografo.Context
 {
-    public DbSet<Fotografo>? Fotografos { get; set; }
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
 
-    public DbSet<Visita>? Visitas { get; set; }
+        public DbSet<Fotografo>? Fotografos { get; set; }
 
+        public DbSet<Visita>? Visitas { get; set; }
+    }
 }
-
-
-   
